@@ -1,0 +1,9 @@
+appearance Appearance { material Material {
+ambientIntensity 0.271
+diffuseColor 0.824 0.820 0.781
+specularColor 0.328 0.258 0.172
+emissiveColor 0.0 0.0 0.0
+shininess 0.70
+transparency 0.0
+} }
+
