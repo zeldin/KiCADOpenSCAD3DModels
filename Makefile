@@ -76,3 +76,6 @@ $(eval $(call component_library,TE_Connectivity,   \
 
 $(eval $(call component_library,Samtec, \
 	$(foreach pins,05 08 10 13 15 17 20 25,FTSH-1$(pins)-01-K)))
+
+$(eval $(call component_library,Hroparts, \
+	TYPE-C-31-M-12))
