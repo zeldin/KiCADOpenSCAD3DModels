@@ -73,3 +73,6 @@ $(eval $(call component_library,TE_Connectivity,   \
 	$(addprefix 7-5530843-,5 6 7)              \
 	$(addprefix 8-5530843-,4 5 7 8 9)          \
 	$(addprefix 9-5530843-,0 1 2 4)))
+
+$(eval $(call component_library,Samtec, \
+	$(foreach pins,05 08 10 13 15 17 20 25,FTSH-1$(pins)-01-K)))
