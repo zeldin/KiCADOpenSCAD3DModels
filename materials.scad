@@ -19,3 +19,5 @@ module blue_pa() { material("blue_pa", [0.34, 0.445, 0.68]) children(); }
 module black_ppa() { material("black_ppa", [0.148, 0.145, 0.145]) children(); }
 module black_pet() { material("black_pet", [0.148, 0.145, 0.145]) children(); }
 module black_lcp() { material("black_lcp", [0.148, 0.145, 0.145]) children(); }
+
+module white_paint() { material("white_paint", [1.0, 1.0, 1.0]) children(); }

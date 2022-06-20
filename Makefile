@@ -79,3 +79,6 @@ $(eval $(call component_library,Samtec, \
 
 $(eval $(call component_library,Hroparts, \
 	TYPE-C-31-M-12))
+
+$(eval $(call component_library,TexasInstruments, \
+	X2QFN-12))
